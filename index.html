@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Undangan Yasinan 40 Hari</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+	html {
+    	    scroll-behavior: smooth;
+	}
+
+        body {
+   	    font-family: Georgia, serif;
+   	    background-color: #f5f3ed;
+    	    color: #4d554b;
+	}
+
+        .cover {
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            padding: 30px;
+        }
+
+        .content {
+            max-width: 600px;
+        }
+
+        .arabic {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+    	   font-size: 38px;
+    	   margin-bottom: 15px;
+    	   font-weight: normal;
+    	   letter-spacing: 1px;
+	}
+
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .name {
+    	    font-size: 30px;
+    	    font-weight: normal;
+    	    margin-bottom: 30px;
+    	    color: #687363;
+    	    letter-spacing: 1px;
+	}
+
+        .description {
+            font-size: 14px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+
+            padding: 12px 25px;
+
+            background-color: #687363;
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 30px;
+
+            font-size: 14px;
+        }
+
+       #undangan {
+    	   min-height: 100vh;
+    	   padding: 100px 30px;
+    	   text-align: center;
+    	   background-color: #fffdf8;
+	}
+
+       #undangan h2 {
+    	   margin-bottom: 25px;
+	}
+
+       #undangan p {
+    	   max-width: 600px;
+    	   margin: 0 auto 30px;
+    	   line-height: 1.8;
+	}
+
+	#undangan h3 {
+    	    font-size: 26px;
+    	    color: #687363;
+	}
+
+	.foto-almarhum {
+   	    width: 180px;
+    	    height: 220px;
+     	    object-fit: cover;
+    	    border-radius: 10px;
+    	    margin: 20px auto 30px;
+    	    display: block;
+ 	}
+
+	.tanggal-wafat {
+    	    font-size: 14px;
+    	    font-style: italic;
+    	    color: #777;
+    	    margin-bottom: 35px;
+	}
+
+	.detail-acara {
+ 	   max-width: 900px;
+    	   margin: 40px auto 0;
+    	   display: flex;
+    	   justify-content: center;
+    	   gap: 20px;
+     	   flex-wrap: wrap;
+	}
+
+	.card-acara {
+    	   width: 250px;
+    	   padding: 25px 20px;
+    	   background-color: #f5f3ed;
+    	   border-radius: 15px;
+	}
+
+	.card-acara .icon {
+    	   font-size: 30px;
+    	   margin-bottom: 15px;
+	}
+
+	.card-acara h4 {
+    	   font-size: 17px;
+    	   margin-bottom: 10px;
+    	   color: #687363;
+	}
+
+	.card-acara p {
+    	   font-size: 14px;
+    	   line-height: 1.6;
+	}
+
+	.map-button {
+    	   display: inline-block;
+    	   margin-top: 15px;
+    	   padding: 10px 18px;
+    	   background-color: #687363;
+     	   color: white;
+    	   text-decoration: none;
+      	   border-radius: 20px;
+    	   font-size: 13px;
+	}
+
+	.penutup {
+    	   max-width: 600px;
+   	   margin: 80px auto 0;
+    	   text-align: center;
+    	   line-height: 1.8;
+	}
+
+	.penutup p {
+    	   margin-bottom: 25px;
+    	   font-size: 14px;
+	}
+
+	.penutup .doa {
+    	   font-style: italic;
+    	   color: #687363;
+	}
+
+	.penutup .salam {
+     	   font-weight: bold;
+    	   margin-top: 40px;
+	}
+
+	.ornament {
+    	   font-size: 18px;
+    	   color: #687363;
+    	   margin-bottom: 25px;
+	}
+
+	@media (max-width: 600px) {
+
+    	.cover {
+        	padding: 25px;
+    	}
+
+    	.arabic {
+        	font-size: 22px;
+    	}
+
+    	h1 {
+        	font-size: 30px;
+    	}
+
+    	.subtitle {
+        	font-size: 14px;
+    	}
+
+    	.name {
+        	font-size: 25px;
+    	}
+
+    	.description {
+        	font-size: 13px;
+    	}
+
+    	#undangan {
+        	padding: 70px 20px;
+    	}
+
+    	#undangan h2 {
+        	font-size: 22px;
+    	}
+
+    	.foto-almarhum {
+        	width: 160px;
+        	height: 200px;
+    	}
+
+    	.detail-acara {
+        	gap: 15px;
+    	}
+
+    	.card-acara {
+        	width: 100%;
+        	max-width: 320px;
+    	}
+
+    	.penutup {
+        	margin-top: 60px;
+    	}
+
+	}
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <section class="cover">
+
+        <div class="content">
+
+            <div class="arabic">
+                بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+            </div>
+
+	    <div class="ornament">✦</div>
+
+            <h1>
+                Undangan Yasinan
+            </h1>
+
+
+            <p class="subtitle">
+                Dalam Rangka Memperingati 40 Hari Wafatnya
+            </p>
+
+
+            <div class="name">
+                Irfan Syahroni Muni
+            </div>
+
+
+            <a href="#undangan" class="button">
+                Buka Undangan
+            </a>
+
+
+        </div>
+
+    </section>
+
+    <section id="undangan">
+
+    <h2>Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+
+    <p>
+        Dengan memohon rahmat dan ridha Allah SWT,
+        kami mengundang Bapak/Ibu/Saudara/i
+        untuk hadir dalam acara Yasinan dan Tahlilan
+        dalam rangka memperingati 40 hari wafatnya
+        orang yang kami kasihi.
+    </p>
+
+    <img src="foto-almarhum.jpg" alt="Foto Almarhum/Almarhumah" class="foto-almarhum">
+
+    <h3>Irfan Syahroni Muni</h3>
+
+    <p class="tanggal-wafat">
+    	Telah berpulang ke rahmatullah
+    </p>
+
+    <div class="detail-acara">
+
+    <div class="card-acara">
+        <div class="icon">📅</div>
+        <h4>Hari & Tanggal</h4>
+        <p>Sabtu, 03 Oktober 2026</p>
+    </div>
+
+    <div class="card-acara">
+        <div class="icon">🕐</div>
+        <h4>Waktu</h4>
+        <p>16.00 WITA - selesai</p>
+    </div>
+
+    <div class="card-acara">
+        <div class="icon">📍</div>
+        <h4>Tempat</h4>
+        <p>Perumahan Cityhill Residence</p>
+
+	<a href="https://maps.app.goo.gl/zRddn3mSzKLeTfA76" target="_blank" class="map-button">
+        	Lihat Lokasi
+        </a>
+
+    </div>
+
+</div>
+
+    <div class="penutup">
+
+    <p>
+        Merupakan suatu kehormatan dan kebahagiaan
+        bagi kami apabila Bapak/Ibu/Saudara/i
+        berkenan hadir dan mendoakan almarhum/almarhumah.
+    </p>
+
+    <p class="doa">
+        Semoga Allah SWT menerima amal ibadahnya,
+        mengampuni segala kekhilafannya,
+        dan memberikan tempat terbaik di sisi-Nya.
+    </p>
+
+    <p class="salam">
+        Wassalamu'alaikum Warahmatullahi Wabarakatuh
+    </p>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>
